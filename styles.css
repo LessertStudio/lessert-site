@@ -152,6 +152,10 @@ video {
   padding-bottom: var(--order-height);
 }
 
+.product-page > .section-art:last-child {
+  border-bottom: 0;
+}
+
 .media-carousel {
   position: relative;
   overflow: hidden;
