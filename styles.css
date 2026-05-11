@@ -2,7 +2,7 @@
   --page-width: 1638px;
   --line: #111;
   --line-width: 0.5pt;
-  --header-height: clamp(70px, 12.76vw, 209px);
+  --header-height: min(12.76vw, 209px);
   --order-height: min(26.92vw, 441px);
 }
 
