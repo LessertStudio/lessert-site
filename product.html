@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="Cache-Control" content="no-store" />
+    <title>Lessert 商品頁</title>
+    <link rel="stylesheet" href="./styles.css?v=20260512b" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand-link" href="./index.html" aria-label="回到主頁">
+        <img src="./天頭.jpg?v=20260512b" alt="Lessert" />
+      </a>
+    </header>
+
+    <nav class="product-pager page-shell" aria-label="商品上下頁">
+      <img src="./商品頁-上下頁按鈕.jpg?v=20260512b" alt="上一項與下一項商品" />
+      <a id="prevProduct" class="pager-link previous" href="./product.html?id=6" aria-label="上一項商品"></a>
+      <a id="nextProduct" class="pager-link next" href="./product.html?id=2" aria-label="下一項商品"></a>
+    </nav>
+
+    <main class="page-shell product-page">
+      <img class="section-art" src="./商品頁-商品名稱及價錢.jpg?v=20260512b" alt="商品名稱及價格" />
+
+      <section class="media-carousel" aria-label="商品圖片">
+        <div id="slides" class="slides"></div>
+        <button class="carousel-control previous" type="button" aria-label="上一張">‹</button>
+        <button class="carousel-control next" type="button" aria-label="下一張">›</button>
+        <div id="slideDots" class="slide-dots" aria-hidden="true"></div>
+      </section>
+
+      <img class="section-art" src="./商品頁-商品介紹.jpg?v=20260512b" alt="商品介紹" />
+    </main>
+
+    <footer class="order-footer page-shell" aria-label="訂購連結">
+      <img src="./商品頁-訂購連結.jpg?v=20260512b" alt="Google 表單訂購與官方 LINE 訂購" />
+      <a id="googleOrder" class="order-link google" href="https://docs.google.com/document/d/1M7FTZQ4tBs0zgJTzExDCf6ctYibihCHFnPOlZBEEDHY/edit?tab=t.0" aria-label="Google 表單訂購"></a>
+      <a id="lineOrder" class="order-link line" href="https://docs.google.com/document/d/1M7FTZQ4tBs0zgJTzExDCf6ctYibihCHFnPOlZBEEDHY/edit?tab=t.0" aria-label="官方 LINE 訂購"></a>
+    </footer>
+
+    <script src="./product.js?v=20260512b"></script>
+  </body>
+</html>
